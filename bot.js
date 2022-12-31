@@ -144,7 +144,7 @@ bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV
                 type: 'video', media: 'https://telegra.ph/file/dadf56d40987d59643c29.mp4' 
             },
             {
-                type: 'photo', media: 'https://telegra.ph/file/7ac6565e3acd2baeda641.mp4' 
+                type: 'video', media: 'https://telegra.ph/file/7ac6565e3acd2baeda641.mp4' 
             },
             {
                 type: 'photo', media: 'https://telegra.ph/file/8220acad34bae94e4110f.jpg' 
