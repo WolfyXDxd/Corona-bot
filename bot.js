@@ -59,9 +59,9 @@ bot.command(['EllesPhotos', 'ellesphotos', 'Ellesphotos', 'ellesPhotos', 'EllesP
             }
         ])
         
-    function elles_pag2() {ctx.reply('Siguiente pagina: /elles_page2P')}
-    setTimeout(elles_pag2,100)
-    
+    /*function elles_pag2() {ctx.reply('Siguiente pagina: /elles_page2P')}
+    setTimeout(elles_pag2,100*/
+    ctx.reply('Siguiente pagina: /elles_page2P')
 })
 
 bot.command('elles_page2P', (ctx) => {
@@ -99,9 +99,9 @@ bot.command('elles_page2P', (ctx) => {
             }
         ])
     
-        function elles_pag3() {ctx.reply('Siguiente pagina: /elles_page3P')}
-        setTimeout(elles_pag3,100)   
-            
+        /*function elles_pag3() {ctx.reply('Siguiente pagina: /elles_page3P')}
+        setTimeout(elles_pag3,100)*/   
+        ctx.reply('Siguiente pagina: /elles_page3P')    
 })
 
 bot.command('elles_page3P', (ctx) => {
@@ -139,9 +139,9 @@ bot.command('elles_page3P', (ctx) => {
             }
         ])
     
-        function elles_pag4() {ctx.reply('Siguiente pagina: /elles_page4P')}
-        setTimeout(elles_pag4,100)
-               
+        /*function elles_pag4() {ctx.reply('Siguiente pagina: /elles_page4P')}
+        setTimeout(elles_pag4,100)*/
+        ctx.reply('Siguiente pagina: /elles_page4P')       
 })
 
 bot.command('elles_page4P', (ctx) => {
@@ -179,9 +179,9 @@ bot.command('elles_page4P', (ctx) => {
             }
         ])
     
-        function elles_pag5() {ctx.reply('Siguiente pagina: no disponible hasta añadirla')}
-        setTimeout(elles_pag5,100)
-               
+        /*function elles_pag5() {ctx.reply('Siguiente pagina: no disponible hasta añadirla')}
+        setTimeout(elles_pag5,100)*/
+        ctx.reply('Siguiente pagina: no disponible hasta añadirla')       
 })
 
 bot.launch()
