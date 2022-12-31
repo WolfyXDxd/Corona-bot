@@ -60,7 +60,7 @@ bot.command(['EllesPhotos', 'ellesphotos', 'Ellesphotos', 'ellesPhotos', 'EllesP
         ])
         
     function elles_pag2() {ctx.reply('Siguiente pagina: /elles_page2P')}
-    setTimeout(elles_pag2,1000)
+    setTimeout(elles_pag2,100)
     
 })
 
@@ -100,7 +100,7 @@ bot.command('elles_page2P', (ctx) => {
         ])
     
         function elles_pag3() {ctx.reply('Siguiente pagina: /elles_page3P')}
-        setTimeout(elles_pag3,1000)   
+        setTimeout(elles_pag3,100)   
             
 })
 
@@ -139,8 +139,48 @@ bot.command('elles_page3P', (ctx) => {
             }
         ])
     
-        function elles_pag4() {ctx.reply('Siguiente pagina: no disponible hasta añadirla')}
-        setTimeout(elles_pag4,1000)
+        function elles_pag4() {ctx.reply('Siguiente pagina: /elles_page4P')}
+        setTimeout(elles_pag4,100)
+               
+})
+
+bot.command('elles_page4P', (ctx) => {
+    ctx.replyWithMediaGroup( 
+        [
+            {
+                type: 'photo', media: 'https://telegra.ph/file/45e36efa3d8e41f032578.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/d8e9ead060d029ed20590.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/3603beb05eaa735f63863.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/fc43092d9d35475839c54.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/02b741810b425f48a0cb9.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/b1e5ebb5e3400168ebf77.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/ff8c4c773380f8cd9c05c.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/ea0753462a861d20ebcf7.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/932be7686cb3bce7c7a43.jpg' 
+            },
+            {
+                type: 'photo', media: 'https://telegra.ph/file/ea8acfb8283f17b94904d.jpg' 
+            }
+        ])
+    
+        function elles_pag5() {ctx.reply('Siguiente pagina: no disponible hasta añadirla')}
+        setTimeout(elles_pag5,100)
                
 })
 
