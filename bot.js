@@ -18,6 +18,11 @@ bot.mention('Pornguyreplacebot', (ctx) => {
     ctx.reply('QUE QUIERES IMBECIL, USA /help PARA EL PORNO, NO ME ANDES MENCIONANDO');
 })
 
+//file_id
+bot.on('message', (ctx) => {
+    console.log(ctx.message.photo)
+})
+
 
 //comandos packs
 
