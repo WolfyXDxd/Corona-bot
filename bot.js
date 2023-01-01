@@ -143,42 +143,8 @@ bot.command('elles_page3P', (ctx) => {
         ])     
 })
 
-//Elles videos
-/*bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV', 'ellesv', 'ellesV', 'Ellesv'], (ctx) => {
-    ctx.replyWithMediaGroup( 
-        [
-            {
-                type: 'video', media: 'https://telegra.ph/file/dadf56d40987d59643c29.mp4' 
-            },
-            {
-                type: 'video', media: 'https://telegra.ph/file/7ac6565e3acd2baeda641.mp4' 
-            },
-            {
-                type: 'video', media: 'BAACAgEAAxkBAAIComOw12iPbyHJxDSZbXZ9UEBlzN-xAALGAgACwLV4RQn9mXlsJM4gLQQ'  
-            },
-            {
-                type: 'photo', media: 'https://telegra.ph/file/f13b94cc2a3c45cd41033.jpg' 
-            },
-            {
-                type: 'photo', media: 'https://telegra.ph/file/c25026f9d8c15ecc7044c.jpg' 
-            },
-            {
-                type: 'photo', media: 'https://telegra.ph/file/07b88df6a1d6c694d8ed5.jpg' 
-            },
-            {
-                type: 'photo', media: 'https://telegra.ph/file/7f8dc423f49eea881fccc.jpg' 
-            },
-            {
-                type: 'photo', media: 'https://telegra.ph/file/ff26547d441275078f3c8.jpg' 
-            },
-            {
-                type: 'photo', media: 'https://telegra.ph/file/9899df3ad920cb566ea3a.jpg' 
-            }
-        ])
-        
-    function elles_pag2() {ctx.reply('Siguiente pagina: /elles_page2P')}
-    setTimeout(elles_pag2,100 //tenia errores asi que lo elimine pero puede servir en un futuro
-    ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)V')
-})*/
+bot.command('elles_page4P', (ctx) => {
+    ctx.reply('Pagina no disponible')
+})
 
 bot.launch()
