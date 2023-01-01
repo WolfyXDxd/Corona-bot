@@ -39,6 +39,10 @@ bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV
     ctx.replyWithVideo('BAACAgEAAxkBAAIDAWOx2eoY-HpH9AR5CBNaGiTfDItQAALOAgACwLV4RV7-0qFOxulJLQQ')
     ctx.replyWithVideo('BAACAgEAAxkBAAIDAmOx2eowMXsXmdCgPEvS35hL4DAKAALQAgACwLV4Raat_sb5YgFiLQQ')
     ctx.replyWithVideo('BAACAgEAAxkBAAIDA2Ox2ervkLhkwNP3_PlK3Ui1A4wsAALRAgACwLV4RUy3GH63r4q0LQQ')
+    ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)V')
+})
+
+bot.command('elles_page2V', (ctx) => {
     ctx.replyWithVideo('BAACAgEAAxkBAAIDBGOx2eqMONsQY59LXsqMsim2XjoxAALSAgACwLV4RXK8Sd04T5uILQQ')
     ctx.replyWithVideo('BAACAgEAAxkBAAIDBWOx2eo8ovhm1B8YHIfKd_wsr_qkAALTAgACwLV4RccvQjNPy1wQLQQ')
     ctx.replyWithVideo('BAACAgEAAxkBAAIDBmOx2eqwyzfr6kdtVNvg2_Qty8GDAALVAgACwLV4RevNMiJsTjqPLQQ')
