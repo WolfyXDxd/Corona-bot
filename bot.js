@@ -18,10 +18,6 @@ bot.mention('Pornguyreplacebot', (ctx) => {
     ctx.reply('QUE QUIERES IMBECIL, USA /help PARA EL PORNO, NO ME ANDES MENCIONANDO');
 })
 
-//file_id
-bot.on('message', (ctx) => {
-    console.log(ctx.message.video)
-})
 
 
 //comandos packs
@@ -29,6 +25,12 @@ bot.on('message', (ctx) => {
 //Elles
 bot.command(['EllesClub', 'ellesclub', 'Ellesclub', 'elles', 'Elles'], (ctx) => {
     ctx.replyWithPhoto('https://i.redd.it/d0oxsarvpy091.jpg', {caption: '🎀ELLES CLUB🎀 \n\n🎥Actriz +18\n🇨🇿Nacionalidad: Chequia\n✨ig: https://www.instagram.com/heartsicx/?hl=es \n\n/EllesPhotos\n/EllesVideos'})  
+})
+
+//EllesVideos
+bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV', 'ellesv', 'ellesV', 'Ellesv'], (ctx) => {
+    ctx.replyWithVideo('BAACAgEAAxkBAAICrmOw3YXKNHoDKkK_T4LOcDCzmrY1AALGAgACwLV4RQn9mXlsJM4gLQQ')
+    ctx.replyWithVideo('https://telegra.ph/file/7ac6565e3acd2baeda641.mp4')
 })
 
 //EllesPhotos
@@ -142,7 +144,7 @@ bot.command('elles_page3P', (ctx) => {
 })
 
 //Elles videos
-bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV', 'ellesv', 'ellesV', 'Ellesv'], (ctx) => {
+/*bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV', 'ellesv', 'ellesV', 'Ellesv'], (ctx) => {
     ctx.replyWithMediaGroup( 
         [
             {
@@ -152,7 +154,7 @@ bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV
                 type: 'video', media: 'https://telegra.ph/file/7ac6565e3acd2baeda641.mp4' 
             },
             {
-                type: 'video', media: 'BAACAgEAAxkBAAIComOw12iPbyHJxDSZbXZ9UEBlzN-xAALGAgACwLV4RQn9mXlsJM4gLQQ', timeout: '1000000'  
+                type: 'video', media: 'BAACAgEAAxkBAAIComOw12iPbyHJxDSZbXZ9UEBlzN-xAALGAgACwLV4RQn9mXlsJM4gLQQ'  
             },
             {
                 type: 'photo', media: 'https://telegra.ph/file/f13b94cc2a3c45cd41033.jpg' 
@@ -174,10 +176,9 @@ bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV
             }
         ])
         
-    /*function elles_pag2() {ctx.reply('Siguiente pagina: /elles_page2P')}
-    setTimeout(elles_pag2,100*/ //tenia errores asi que lo elimine pero puede servir en un futuro
+    function elles_pag2() {ctx.reply('Siguiente pagina: /elles_page2P')}
+    setTimeout(elles_pag2,100 //tenia errores asi que lo elimine pero puede servir en un futuro
     ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)V')
-})
-
+})*/
 
 bot.launch()
