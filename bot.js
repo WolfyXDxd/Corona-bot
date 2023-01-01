@@ -20,7 +20,7 @@ bot.mention('Pornguyreplacebot', (ctx) => {
 
 //file_id
 bot.on('message', (ctx) => {
-    console.log(ctx.message.photo)
+    console.log(ctx.message.video)
 })
 
 
