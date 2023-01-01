@@ -152,7 +152,7 @@ bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV
                 type: 'video', media: 'https://telegra.ph/file/7ac6565e3acd2baeda641.mp4' 
             },
             {
-                type: 'video', media: 'BAACAgEAAxkBAAIComOw12iPbyHJxDSZbXZ9UEBlzN-xAALGAgACwLV4RQn9mXlsJM4gLQQ' 
+                type: 'video', media: 'BAACAgEAAxkBAAIComOw12iPbyHJxDSZbXZ9UEBlzN-xAALGAgACwLV4RQn9mXlsJM4gLQQ', timeout: '1000000'  
             },
             {
                 type: 'photo', media: 'https://telegra.ph/file/f13b94cc2a3c45cd41033.jpg' 
