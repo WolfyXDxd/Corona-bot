@@ -18,6 +18,10 @@ bot.mention('Pornguyreplacebot', (ctx) => {
     ctx.reply('QUE QUIERES IMBECIL, USA /help PARA EL PORNO, NO ME ANDES MENCIONANDO');
 })
 
+//File_ID
+/*bot.on('message', (ctx) => {
+    console.log(ctx.message.video)
+})*/
 
 
 //comandos packs
@@ -31,6 +35,14 @@ bot.command(['EllesClub', 'ellesclub', 'Ellesclub', 'elles', 'Elles'], (ctx) => 
 bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV', 'ellesv', 'ellesV', 'Ellesv'], (ctx) => {
     ctx.replyWithVideo('BAACAgEAAxkBAAICrmOw3YXKNHoDKkK_T4LOcDCzmrY1AALGAgACwLV4RQn9mXlsJM4gLQQ')
     ctx.replyWithVideo('https://telegra.ph/file/7ac6565e3acd2baeda641.mp4')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDAAFjsdnqc9EYbpGzLkFAa-NlvpC8XwACzQIAAsC1eEX0uVtyzSkCwC0E')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDAWOx2eoY-HpH9AR5CBNaGiTfDItQAALOAgACwLV4RV7-0qFOxulJLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDAmOx2eowMXsXmdCgPEvS35hL4DAKAALQAgACwLV4Raat_sb5YgFiLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDA2Ox2ervkLhkwNP3_PlK3Ui1A4wsAALRAgACwLV4RUy3GH63r4q0LQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDBGOx2eqMONsQY59LXsqMsim2XjoxAALSAgACwLV4RXK8Sd04T5uILQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDBWOx2eo8ovhm1B8YHIfKd_wsr_qkAALTAgACwLV4RccvQjNPy1wQLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDBmOx2eqwyzfr6kdtVNvg2_Qty8GDAALVAgACwLV4RevNMiJsTjqPLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDB2Ox2ep1C7_MvTyIdTxSaBY2puwhAAIuAgACwLWARc_65GgrHPM5LQQ')
 })
 
 //EllesPhotos
