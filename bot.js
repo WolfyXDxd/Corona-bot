@@ -23,7 +23,7 @@ bot.command(['Pages', 'pages'], (ctx) => {
 })
 
 bot.command(['Packs', 'packs'], (ctx) => {
-    ctx.reply('PACKS +18😈\n\n/EllesClub - Abreviaturas (/ellesclub,/Ellesclub,/elles,/Elles)')
+    ctx.reply('PACKS +18😈\n\n/EllesClub - Abreviaturas (/ellesclub,/Ellesclub,/elles,/Elles)\n/Lizbeth_Rodriguez - Abreviaturas (/lizbeth_rodriguez,/Lizbeth_rodriguez,/lizbeth,/Lizbeth)')
 })
 
 bot.command(['categorias', 'Categorias'], (ctx) => {
@@ -32,11 +32,173 @@ bot.command(['categorias', 'Categorias'], (ctx) => {
 
 //File_ID
 /*bot.on('message', (ctx) => {
-    console.log(ctx.message.video)
+    console.log(ctx.message.photo)
 })*/
 
 
 //comandos packs
+
+//Lizbeth
+bot.command(['Lizbeth_Rodriguez', 'lizbeth_rodriguez', 'Lizbeth_rodriguez', 'lizbeth', 'Lizbeth'], (ctx) => {
+    ctx.replyWithPhoto('https://www.show.news/__export/1635392815070/sites/debate/img/2021/10/27/lizbeth-rodriguez_1.jpg_839202635.jpg', {caption: '🐴LIZBETH RODRIGUEZ🐴 \n\n🎥Actriz, Youtuber\n🇲🇽Nacionalidad: Mexicana\n✨ig: https://www.instagram.com/lizbethrodriguezoficial/?hl=es-la \n\n/LizbethPhotos\n/LizbethVideos'})
+})
+
+//LizbethVideos
+bot.command(['LizbethVideos', 'lizbethvideos', 'Lizbethvideos', 'lizbethVideos', 'LizbethV', 'lizbethv', 'lizbethV', 'Lizbethv'], (ctx) => {
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDrGOy9o59QUJHQjffTbb_Dn3B6DdsAAI9AgAC3_VRRb2LPwYSS4jrLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDrWOy9o5VxhpwU9ZKXy_M2khOMoZqAAI-AgAC3_VRRdo-n92A5NPoLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDrmOy9o7Q6mntyHqZSYJ2aJ8shE0wAAI_AgAC3_VRRYgo5eqj2jjRLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDr2Oy9o7I6fIdKZta-1T2y6pmZ2csAAJAAgAC3_VRRQ-_2zLlzOsXLQQ')
+    ctx.replyWithVideo('BAACAgQAAxkBAAIDsGOy9o6UXRDibqN2G9sbBCxXENmpAAJvDgACqwtpUDJuDFWst7zMLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDsWOy9o5Ex207H7iABXnKRIkCc-JSAAIfAwAC6vxZRaoUSwAB9c3hPS0E')
+    function lizbeth_reply() { ctx.reply('Pagina1 para pasar de pagina usar /lizbeth_page(numero sin el parentesis)V\n\nEXPLICACION EN: /Pages') }
+    setTimeout(lizbeth_reply, 1000)
+})
+
+bot.command('lizbeth_page2V', (ctx) => {
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDsmOy9o4hHLVhsrAnhF9hNcn4gRjWAAIjAwAC6vxZRfOWU6XSsEL4LQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDs2Oy9o5BzhFvsWBWuwPRVIVfeeUcAAIkAwAC6vxZRVKOwqzpZvrcLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDtGOy9o4R3qxsDMEcCwXua5os6l9HAAL5AgACwA9ZRdzMT2Ei0X-KLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDtWOy9o41rZcR7eU4q_u_XF1rt2sJAAI8AwAC6vxZRa3PkxEFpTKoLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDtmOy9o6W5xmrIJ6p5oGmgwIEFQAB7AAC2wEAAkxyGUXGYBkaXgnioy0E')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDt2Oy9o4aUx2ai8uP4rzKyKKPU5F3AAIuAwACEFaBRVJ13-TGsgIyLQQ')
+})
+
+bot.command('lizbeth_page3V', (ctx) => {
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDumOy9o4uWNlvfidfH1aHbH6E3_PwAAJmAgACum-IRVD8kttO2Qw6LQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDvGOy9o785MC9ExFdNZMFQIyFSE2DAALgAwAC7FuRRYDUPl3EnjI6LQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDvWOy9o5ToFpGrFH6HnssMU7t4NBsAAIfBAACqjyRRS_KIHIdd_VvLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDvmOy9o4m8CveNLvjHU6aWE2Tr2DaAAIgBAACqjyRRXQvCB2m8rRaLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDv2Oy9o7xPEBI42i9kSWSvAJ-FJjEAAKKAgACoTuRRa4dWBFOTxNKLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDwGOy9o4ukraLUCP4l44zXBWJIFwzAAKLAgACoTuRRSxqXo9lx1TiLQQ')
+})
+
+bot.command('lizbeth_page4V', (ctx) => {
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDwWOy9o4RJVJ0CvTAkCJxPNW_9AgGAAKMAgACoTuRRfRkM6cktVTcLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDwmOy9o6Gd4DjFvzAUN1vbmi9LCRKAAKNAgACoTuRRVwQbXO3FQOTLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDw2Oy9o6kD_xjckZorl0l8yGjoxE7AAKKAgACoTuRRa4dWBFOTxNKLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDxGOy9uVfraVAZxYIS5l64vhLUBFKAAL2AgAC4WPIRHJDngACWEz5LQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDxWOy9uXKJvQ-EZPmEz-WrO_ET-LUAAI9AwACy1ngREb3CzOS6lw4LQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDxmOy9uWjo38Tx3AcHT77b7EzyiKcAAI8AgAC3_VRReo8NwPcfsSdLQQ')
+})
+
+bot.command('lizbeth_page5V', (ctx) => {
+    ctx.reply('Pagina no disponible')
+})
+
+//LizbethPhotos
+bot.command(['LizbethPhotos', 'lizbethphotos', 'lizbethphotos', 'lizbethPhotos', 'LizbethP', 'lizbethp', 'lizbethP', 'Lizbethp'], (ctx) => {
+    ctx.replyWithMediaGroup( 
+        [
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIED2Oy-rRw7rwOgnF_dXZrwneavpA3AAKJqjEboTuRRV8cfEkQdxHdAQADAgADcwADLQQ' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEEGOy-rTtegABUtQwYEsqn0oOgLDe3QACiqoxG6E7kUXgNZnDa7n7AAEBAAMCAANzAAMtBA' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEEWOy-rRVTa4cCHQJXAy0uk-3hIH_AAKLqjEboTuRRdeI69xeGHtZAQADAgADbQADLQQ' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEEmOy-rToJ3SD_8lRZU6KAAGUuLCuaQACj6oxG6E7kUWk_Cj1S85IzAEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEE2Oy-rTpjtEa9C_nb-M185VQTdFNAAKMqjEboTuRRQGQ-yMURR6jAQADAgADcwADLQQ' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIESmOzAAGJ2rxs11vvW7oTzEno99O3XgACj6oxG-r8WUUfzTiuCOtiKgEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIES2OzAAGJoCfBAAEDxuCTh7y08dbRKhQAApCqMRvq_FlF1PEscJs5w5wBAAMCAANzAAMtBA' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIETGOzAAGJt_pxSdmtcT5y4cTZURj8-wACiqsxGzvEcUXmMoLY5JMSPAEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIETWOzAAGJ_bst9T5XORvWw1QZ-hqf_gACi6sxGzvEcUXe5v36XbKbnQEAAwIAA3MAAy0E' 
+            }
+        ])
+        
+    function lizbeth_reply2() { ctx.reply('Pagina1 para pasar de pagina usar /lizbeth_page(numero sin el parentesis)P\n\nEXPLICACION EN: /Pages') }
+    setTimeout(lizbeth_reply2,1000) //tenia errores asi que lo elimine pero puede servir en un futuro
+    
+})
+
+bot.command('lizbeth_page2P', (ctx) => {
+    ctx.replyWithMediaGroup( 
+        [
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEUGOzAAGJ68EJU7vU0PFV5Wm49QOWAQACoqsxGzvEcUXx71zKCWpdxQEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEUWOzAAGJtE5LzTD6xsLTR-pp8RgpWQAChKsxG6o8kUWpvKgr07pRDwEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEUmOzAAGJMytd-z3gzM3PNl4iaV05ggAChasxG6o8kUVt-XSl2OARiwEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEU2OzAAGJM0ACHC4EtrJik6slhYFOsgAChqsxG6o8kUWDhuzk7pi1BAEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEVGOzAAGJKhTMXuneLTm18IfUWRTHTgACjaoxG6E7kUUZNYTH_bVnSgEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEVWOzAAGJL2-9dmS2242iYqeZI9KnxQACjqoxG6E7kUUqDPAs-dWaiwEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEVmOzAAGJuJmXumra3ZaVYFhrB1e7TAACkKoxG6E7kUUsk2xgQwY1QgEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEV2OzAAGJ9NgtPT7_9-cJf_uU3JcAAf8AApOqMRuhO5FFa0MAAfRCundRAQADAgADcwADLQQ' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEWGOzAAGJgdZQKPfBqjG8VFADK3N4KwAClaoxG6E7kUX0h-goaNfsQwEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEWWOzAAGJ201_u4E4T2dHBNaY7076hwAClqoxG6E7kUUl9C-3kGiY7wEAAwIAA3MAAy0E' 
+            }
+        ])   
+})
+
+bot.command('lizbeth_page3P', (ctx) => {
+    ctx.replyWithMediaGroup( 
+        [
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEWmOzAAGJBjIf3a8wIOwJ-MIDJ1h0FQACl6oxG6E7kUWboB965aaxiQEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEW2OzAAGJHwbwKjDwPbeRg4DgIwVMGgACmKoxG6E7kUW7aQcGnXROHAEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEXGOzAAGJdrPX7AXGC3-WSH3HTx5whgACmaoxG6E7kUURxhWTNZDQvQEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEXWOzAAGJuVv13sv_CH7-6_afUwABBMsAApqqMRuhO5FFnmfRy0RGlnMBAAMCAANzAAMtBA' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEXmOzAAGJEQSDyF33cVmM5K6lSvsHQQACnKoxG6E7kUXQ86ZIEzjjvwEAAwIAA3MAAy0E' 
+            },
+            {
+                type: 'photo', media: 'AgACAgEAAxkBAAIEX2OzAAGJ88Hzi-gE415uIMkJ6e-bnwACnaoxG6E7kUWXOOrIJMU8CQEAAwIAA3MAAy0E' 
+            },
+            /*{
+                type: 'photo', media: '' 
+            },
+            {
+                type: 'photo', media: '' 
+            },
+            {
+                type: 'photo', media: '' 
+            },
+            {
+                type: 'photo', media: '' 
+            }*/
+        ])   
+})
+
+bot.command('lizbet_page5P', (ctx) => {
+    ctx.reply('Pagina no disponible')
+})
 
 //Elles
 bot.command(['EllesClub', 'ellesclub', 'Ellesclub', 'elles', 'Elles'], (ctx) => {
