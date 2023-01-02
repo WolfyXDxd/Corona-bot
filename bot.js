@@ -116,9 +116,9 @@ bot.command(['EllesPhotos', 'ellesphotos', 'Ellesphotos', 'ellesPhotos', 'EllesP
             }
         ])
         
-    /*function elles_pag2() {ctx.reply('Siguiente pagina: /elles_page2P')}
-    setTimeout(elles_pag2,100*/ //tenia errores asi que lo elimine pero puede servir en un futuro
-    ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)P\n\nEXPLICACION EN: /Pages')
+    function elles_reply2() { ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)P\n\nEXPLICACION EN: /Pages') }
+    setTimeout(elles_reply2,1000) //tenia errores asi que lo elimine pero puede servir en un futuro
+    
 })
 
 bot.command('elles_page2P', (ctx) => {
