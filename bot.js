@@ -7,7 +7,7 @@ bot.start((ctx) => {
 })
 
 bot.help((ctx) => {
-    ctx.reply('Hola! fui creado con el proposito de compartir imagenes subidas de tono, te dejo los comandos aca abajo:\n\nCOMANDOS GENERALES:\n\n/start - Te da la bienvenida e introduccion \n/settings - Configura tu grupo\n/Pages - Te enseña el funcionamiento de las paginas\n\nComandos +18:\n/Categorias - Despliega el menu de categorias\n/Packs - despliega el menu de packs\n/a');
+    ctx.reply('Hola! fui creado con el proposito de compartir imagenes subidas de tono, te dejo los comandos aca abajo:\n\nCOMANDOS GENERALES:\n\n/start - Te da la bienvenida e introduccion. \n/settings - Configura tu grupo.\n/Pages - Te enseña el funcionamiento de las paginas.\n\nComandos +18:\n/Categorias - Despliega el menu de categorias.\n/Packs - despliega el menu de packs.\n/a');
 })
 
 bot.settings((ctx) => {
@@ -51,7 +51,7 @@ bot.command(['EllesVideos', 'ellesvideos', 'Ellesvideos', 'ellesVideos', 'EllesV
     ctx.replyWithVideo('BAACAgEAAxkBAAIDAWOx2eoY-HpH9AR5CBNaGiTfDItQAALOAgACwLV4RV7-0qFOxulJLQQ')
     ctx.replyWithVideo('BAACAgEAAxkBAAIDAmOx2eowMXsXmdCgPEvS35hL4DAKAALQAgACwLV4Raat_sb5YgFiLQQ')
     ctx.replyWithVideo('BAACAgEAAxkBAAIDA2Ox2ervkLhkwNP3_PlK3Ui1A4wsAALRAgACwLV4RUy3GH63r4q0LQQ')
-    function elles_reply() { ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)V') }
+    function elles_reply() { ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)V\n\nEXPLICACION EN: /Pages') }
     setTimeout(elles_reply, 1000)
 })
 
@@ -118,7 +118,7 @@ bot.command(['EllesPhotos', 'ellesphotos', 'Ellesphotos', 'ellesPhotos', 'EllesP
         
     /*function elles_pag2() {ctx.reply('Siguiente pagina: /elles_page2P')}
     setTimeout(elles_pag2,100*/ //tenia errores asi que lo elimine pero puede servir en un futuro
-    ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)P')
+    ctx.reply('Pagina1 para pasar de pagina usar /elles_page(numero sin el parentesis)P\n\nEXPLICACION EN: /Pages')
 })
 
 bot.command('elles_page2P', (ctx) => {
