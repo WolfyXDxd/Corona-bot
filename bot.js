@@ -48,6 +48,27 @@ bot.command('elles_page2V', (ctx) => {
     ctx.replyWithVideo('BAACAgEAAxkBAAIDBWOx2eo8ovhm1B8YHIfKd_wsr_qkAALTAgACwLV4RccvQjNPy1wQLQQ')
     ctx.replyWithVideo('BAACAgEAAxkBAAIDBmOx2eqwyzfr6kdtVNvg2_Qty8GDAALVAgACwLV4RevNMiJsTjqPLQQ')
     ctx.replyWithVideo('BAACAgEAAxkBAAIDB2Ox2ep1C7_MvTyIdTxSaBY2puwhAAIuAgACwLWARc_65GgrHPM5LQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDCGOx2eoVHLsu9bf4XLePAAF-fz32XQACLwIAAsC1gEXhU2c4TL-IEi0E')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDCWOx2erA2M7JUg27v90a1g4e7EkzAAIwAgACwLWARTTPDz6oxsagLQQ')
+})
+
+bot.command('elles_page3V', (ctx) => {
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDLGOyKFBISiKDplQB9E1ta5A1faLNAAIxAgACwLWARel1_Bb-N4BgLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDLGOyKFBISiKDplQB9E1ta5A1faLNAAIxAgACwLWARel1_Bb-N4BgLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDLWOyKFBlmYIyb6SDqBZkKJUbmY6RAAIyAgACwLWARbkCQIE9zf6uLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDLmOyKFBcFQO03GK6YnK5OOIxdZlLAALNAwACww35RbpnbCbiPhOILQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDL2OyKFC3iwyYT4xY82s0i7CCpgXSAALOAwACww35Rdg-Y6wjViAyLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDMGOyKFDfa_uRJ9hz-kD0cBhDn3fAAALPAwACww35RYX7-9d28jPBLQQ')
+})
+
+bot.command('elles_page4V', (ctx) => {
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDTmOyKeHxLSpgxPszKTPBmJPQBBF1AAIRAwACFMdRR27owX2ycDKQLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDUGOyKeEcTojOj9vTfceEdsn9IgJyAALKAQACezjBRRNSswNKKRDWLQQ')
+    ctx.replyWithVideo('BAACAgEAAxkBAAIDUWOyKeGer6127dzNrZ8wqxTp4vOcAAJCAgAC1OioR6IMwKVOLaA5LQQ')
+})
+
+bot.command('elles_page5v', (ctx) => {
+    ctx.reply('Pagina no disponible')
 })
 
 //EllesPhotos
