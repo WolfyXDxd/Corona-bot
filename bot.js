@@ -23,7 +23,7 @@ bot.command(['Pages', 'pages'], (ctx) => {
 })
 
 bot.command(['Packs', 'packs'], (ctx) => {
-    ctx.reply('PACKS +18😈\n\n/EllesClub - Abreviaturas (/ellesclub,/Ellesclub,/elles,/Elles)\n/Lizbeth_Rodriguez - Abreviaturas (/lizbeth_rodriguez,/Lizbeth_rodriguez,/lizbeth,/Lizbeth)')
+    ctx.reply('PACKS +18😈\n\n/EllesClub - Abreviaturas (/ellesclub,/Ellesclub,/elles,/Elles)\n\n/Lizbeth_Rodriguez - Abreviaturas (/lizbeth_rodriguez,/Lizbeth_rodriguez,/lizbeth,/Lizbeth)')
 })
 
 bot.command(['categorias', 'Categorias'], (ctx) => {
