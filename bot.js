@@ -7,7 +7,7 @@ bot.start((ctx) => {
 })
 
 bot.help((ctx) => {
-    ctx.reply('Hola! fui creado con el proposito de compartir imagenes subidas de tono, te dejo los comandos aca abajo:\n\nCOMANDOS GENERALES:\n\n/start - Te da la bienvenida e introduccion \n/settings - Configura tu grupo\n/Pages - Te enseña el funcionamiento de las paginas\n\nComandos +18:\n/EllesClub - Abreviaturas (/ellesclub,/Ellesclub,/elles,/Elles)\n/a\n/a');
+    ctx.reply('Hola! fui creado con el proposito de compartir imagenes subidas de tono, te dejo los comandos aca abajo:\n\nCOMANDOS GENERALES:\n\n/start - Te da la bienvenida e introduccion \n/settings - Configura tu grupo\n/Pages - Te enseña el funcionamiento de las paginas\n\nComandos +18:\n/Categorias - Despliega el menu de categorias\n/Packs - despliega el menu de packs\n/a');
 })
 
 bot.settings((ctx) => {
@@ -20,6 +20,14 @@ bot.mention('Pornguyreplacebot', (ctx) => {
 
 bot.command(['Pages', 'pages'], (ctx) => {
     ctx.reply('Las paginas funcionan de manera bastante sencilla, para llegar a la siguiente pagina tenemos que usar el siguiente comando para videos:\n/(categoria sin el parentesis)_page(numero de pagina sin el parentesis)V - Ejemplo: /elles_page2V\n\nPara fotos:\n/(categoria sin el parentesis)_page(numero de pagina sin el parentesis)P - Ejemplo: /elles_page2P')
+})
+
+bot.command(['Packs', 'packs'], (ctx) => {
+    ctx.reply('PACKS +18😈\n\n/EllesClub - Abreviaturas (/ellesclub,/Ellesclub,/elles,/Elles)')
+})
+
+bot.command(['categorias', 'Categorias'], (ctx) => {
+    ctx.reply('No disponible')
 })
 
 //File_ID
