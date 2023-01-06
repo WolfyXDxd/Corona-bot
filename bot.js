@@ -1,6 +1,7 @@
 const { Telegraf } = require('telegraf')
 
-const bot = new Telegraf('5973501334:AAHJiIOOF_j47Z7O8iOeC_-X7xTsMtqbgaE')
+const bot = new Telegraf(process.env.BOT_token)
+require('dotenv').config()
 
 bot.start((ctx) => {
     ctx.reply('Bienvenido, soy el remplazo robotico del Pornguy si tienes alguna duda puedes usar el comando /help, estoy en constante desarrollo por lo cual se añadiran nuevos videos y funciones cada vez que se pueda.\n Supremo creador: @WolfyXD');
